@@ -60,3 +60,7 @@ def admin_home(req):
 
 def user_home(req):
     return render(req,'user/user_home.html')
+
+def view_pro(req):
+    # data=Product.objects.get(pk=pid)
+    return render(req,'user/view_pro.html')
